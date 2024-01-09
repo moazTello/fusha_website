@@ -1,0 +1,24 @@
+.homesec3_main{
+    width:100%;
+    overflow: hidden;
+}
+.ImageSlider_main{
+    width:100%;
+}
+.slide{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.ImageSlider_img{
+    width:100%;
+    height: 100%;
+}
+.home3_left_arrow{
+    position: absolute;
+}

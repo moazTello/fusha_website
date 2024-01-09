@@ -1,0 +1,95 @@
+.Home_sec_1_main{
+    background: url('../../../images/Home_sec_1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    /* height: fit-content; */
+}
+.dream_container{
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.dream{
+    color:white;
+    font-family: 'Abril Fatface', serif;
+    /* font-family: 'Cairo'; */
+    font-size: 48px;
+}
+.dream1{
+    color:white;
+    font-family: 'Grape Nuts', cursive;
+    font-size: 38px;
+}
+.logo{
+
+}
+.explore_div{
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.explore{
+    color:white;
+    background-color: rgb(71, 158, 229);
+    height: 80px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 15px;
+    border:0px white solid;
+    margin-right: 100px;
+}
+@media screen and (max-width:650px) {
+    .logo{
+        margin-top: 100px;
+        width: 200px;
+    }
+    .dream{
+        color:white;
+        font-size: 38px;
+    }
+    .dream1{
+        color:white;
+        font-size: 28px;
+    }
+    .explore{
+        height: 70px;
+        width: 180px;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:500px) {
+    .dream{
+        color:white;
+        font-size: 28px;
+    }
+    .dream1{
+        color:white;
+        font-size: 18px;
+    }
+    .explore{
+        height: 60px;
+        width: 160px;
+        font-size: 14px;
+        margin-right: 0px;
+
+    }
+    .explore_div{
+        justify-content: center;
+    }
+}
+@media screen and (max-width:375px) {
+    .dream{
+        color:white;
+        font-size: 20px;
+    }
+    .dream1{
+        color:white;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,9 @@
+.Home_main{
+    height: fit-content;
+    background: url('/Users/tello/Desktop/fusha/src/images/background.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}

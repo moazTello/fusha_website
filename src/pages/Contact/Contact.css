@@ -1,0 +1,31 @@
+.contact_main{
+    height: fit-content;
+    background: url('/Users/tello/Desktop/fusha/src/images/background.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.contact_container{
+    background-image:linear-gradient( rgba(0,163,214,50%) 7% ,rgba(255, 255, 255, 0) 15%);
+    padding-top: 200px; 
+    min-height: 100vh;
+}
+.contact_box{
+    width: 100%;
+    background-color: rgba(255,255,255,60%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: wrap;
+    padding:75px 0px 75px 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+.contact_list_container{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

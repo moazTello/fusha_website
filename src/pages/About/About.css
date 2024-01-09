@@ -1,0 +1,54 @@
+.about_main{
+    height: fit-content;
+    background: url('/Users/tello/Desktop/fusha/src/images/background.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.about_container{
+   background-image:linear-gradient( rgba(0,163,214,50%) 7% ,rgba(255, 255, 255, 0) 15%);
+    padding-top: 200px; 
+    min-height: 100vh;
+}
+.about_box{
+    width: 100%;
+    height: fit-content;
+    padding: 50px 0px 50px 0px;
+    position: relative;
+    background-color: rgba(255,255,255,50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about_logo{
+    position: absolute;
+    left: 70px;
+    top: 20px;
+    width: 150px;
+}
+.abouttext{
+    font-family: 'Work Sans', sans-serif;
+    font-style: italic;
+    width: 80%;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.abouttitle{
+    font-family: 'Work Sans', sans-serif;
+    font-style: italic;
+    font-size: 27px;
+}
+@media screen and (max-width:775px) {
+    .abouttitle{
+        margin-top: 70px;
+    }
+    .abouttext{
+        font-size: 20px;
+    }
+    .abouttitle{
+        font-size: 17px;
+    }
+}

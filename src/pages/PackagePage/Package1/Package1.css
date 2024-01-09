@@ -1,0 +1,29 @@
+.package_1_main{
+    width:100%;
+    height: fit-content;
+    background-color: rgba(255,255,255,0%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient( rgba(0,163,214,50%) 10% ,rgba(255, 255, 255, 0) 25%);
+    padding-top: 200px;
+}
+.price{
+    font-family: 'Work Sans', sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.contain_text_package{
+    background-color: white;
+    padding: 15px 15px 45px 15px;
+    position: relative;
+}
+@media screen and (max-width:1050px) {
+    .package_1_main{
+      padding-top: 100px;
+    }
+}

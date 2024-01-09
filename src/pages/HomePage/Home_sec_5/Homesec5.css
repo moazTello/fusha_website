@@ -1,0 +1,64 @@
+.Home5_main{
+    width:100%;
+    background-color: rgba(255,255,255,0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.home5_why{
+    font-family: 'Grape Nuts', cursive;
+    font-size: 38px;
+}
+.home5_container{
+    width:290px;
+    height: 440px;
+    margin:40px;
+    position: relative;
+}
+.home5_boxes{
+    width:fit-content;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+.home5_title{
+    font-weight: bold;
+    font-family: 'Grape Nuts', cursive;
+    margin: 10px;
+    font-size: 14px;
+    color:rgb(40,40,40);
+}
+.home5_laurem{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 10px;
+    margin: 10px;
+}
+.img5{
+    width: 100%;
+    height: 100%;
+}
+.home5_text{
+    width: 230px;
+    height: 90px;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+}
+.home5_content{
+    position: relative;
+    margin-bottom: 18px;
+}
+@media screen and (max-width:500px) {
+    .home5_container{
+        width:250px;
+        height: 378px;
+    }
+    .home5_why{
+        font-size: 32px;
+    }
+}
