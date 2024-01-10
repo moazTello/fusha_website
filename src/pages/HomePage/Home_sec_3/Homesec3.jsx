@@ -2,9 +2,9 @@ import React from 'react';
 import './Homesec3.css';
 import ImageSlider from './ImageSlider'
 import img1 from '../../../images/Home_sec_1.png';
-import img2 from '../../../images/galary.svg';
+import img2 from '../../../images/galary.png';
 import img3 from '../../../images/Home_sec_1.png';
-import img4 from '../../../images/galary.svg';
+import img4 from '../../../images/galary.png';
 
 const Homesec3 = () => {
   const slider = [
