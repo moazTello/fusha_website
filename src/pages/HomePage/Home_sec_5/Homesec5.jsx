@@ -3,8 +3,7 @@ import './Homesec5.css';
 import { useTranslation } from 'react-i18next';
 // import { BsCheck2Circle } from "react-icons/bs";
 // import { FaRegChessQueen } from "react-icons/fa6";
-import airplane from '../../../images/airplane.svg';
-import guarantee from '../../../images/guarantee.svg';
+import airplane from '../../../images/airplane.png';
 import ship from '../../../images/ship.svg';
 import hiking from '../../../images/hiking.svg';
 

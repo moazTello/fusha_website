@@ -3,9 +3,9 @@ import './Package1.css';
 // import { useTranslation } from 'react-i18next';
 import PackagePrice from './PackagePrice';
 import moaz from '../../../images/yassermoaz.jpeg';
-import im1 from '../../../images/package1_test.svg';
-import im2 from '../../../images/package2_test.svg';
-import im3 from '../../../images/package3_test.svg';
+import im1 from '../../../images/package1_test.png';
+import im2 from '../../../images/package2_test.png';
+import im3 from '../../../images/package3_test.png';
 const Package1 = () => {
     // const [t] = useTranslation("global");
     const price = 45;

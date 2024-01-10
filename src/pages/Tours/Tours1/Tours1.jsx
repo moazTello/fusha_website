@@ -5,10 +5,10 @@ import { useTranslation } from 'react-i18next';
 import moaz from '../../../images/yassermoaz.jpeg';
 import flag from '../../../images/syria.png';
 import bri from '../../../images/Flag_of_the_United_Kingdom_(1-2).svg.webp';
-import im1 from '../../../images/package1_test.svg';
-import im2 from '../../../images/package2_test.svg';
-import im3 from '../../../images/package3_test.svg';
-import im4 from '../../../images/package4_test.svg';
+import im1 from '../../../images/package1_test.png';
+import im2 from '../../../images/package2_test.png';
+import im3 from '../../../images/package3_test.png';
+import im4 from '../../../images/package4_test.png';
 
 const Tours1 = () => {
   const [t] = useTranslation("global");
